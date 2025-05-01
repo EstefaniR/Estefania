@@ -76,7 +76,7 @@ def codif(Dataset,index,diccionario):
 
 
 if __name__ == '__main__':
-    correlFile = open("Matriz de Correlación Estefy.csv", "r")
+    correlFile = open("Matriz de Correlación.csv", "r")
     dataFile = open("Datos Estaciones Estefy.csv", "r")
     header = dataFile.readline().strip().split(",")
     MatCorr = []
